@@ -1,0 +1,14 @@
+6. Difference between pivot table and regular Excel table  
+A pivot table is used for summarizing and analyzing data dynamically, while a regular Excel table is mainly for storing and organizing raw data. Pivot tables allow you to drag and drop fields to quickly change perspectives, whereas tables are static and don’t automatically aggregate values.
+
+7. Choosing pivot table vs SQL GROUP BY  
+I’d choose a pivot table when I want quick, interactive exploration in Excel, especially for smaller datasets or presentations. I’d choose SQL GROUP BY when working with large datasets in a database, or when I need reproducible queries that can be automated.
+
+8. Trickiest pivot to build  
+The trickiest pivot was the one combining department and city because it required arranging multiple dimensions in rows and columns. It was easy to get lost in the layout, and I had to double-check that the filters were applied correctly.
+
+9. Pivot totals vs SQL totals  
+My pivot totals did not always match my SQL totals exactly. Sometimes rounding differences or missing filters caused discrepancies. For example, SQL grouped by exact values, while pivot tables sometimes grouped by formatted fields, which led to slight mismatches.
+
+10. Business question with a pivot table
+One business question I could answer tomorrow with a pivot table is: Which department has the highest turnover rate. This would help HR identify problem areas and plan retention strategies.
