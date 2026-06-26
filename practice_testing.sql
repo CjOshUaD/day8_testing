@@ -1,7 +1,7 @@
 -- Activity 2: SQL Aggregation Parallel
 -- Queries to Write (6 points each)
 -- 1. Headcount per department, sorted from largest to smallest.
-SELECT department, COUNT(employee_id) number_employee
+SELECT department, COUNT(employee_id) headcount
 FROM employees
 GROUP BY department
 ORDER BY number_employee DESC
@@ -32,7 +32,7 @@ HR Manager | 82000
 Finance    | 78800 */
 
 -- 4. Headcount per (department, city) combination.
-SELECT Department, city, COUNT(employee_id) headcount
+SELECT department, city, COUNT(employee_id) headcount
 FROM employees
 GROUP BY department, city
 ORDER BY department, city
